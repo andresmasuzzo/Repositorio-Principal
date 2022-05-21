@@ -175,18 +175,6 @@ footer{
     font-weight: bold;
 }
 
-$lineas: (
-    fut1: rgb(146, 144, 144),
-    fut2: rgb(93, 93, 93),
-    fut3: rgb(75, 70, 70),
-);
-
-@each $fut, $color in $lineas {
-    .par--#{$fut} {
-    background-color: $color;
-    }    
-}
-
 @media all and (max-width: 679px){
     footer{
     flex-direction: row-reverse;
