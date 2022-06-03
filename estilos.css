@@ -246,7 +246,7 @@ footer {
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  width: 90%;
+  width: 95%;
   margin: auto;
   gap: 2.5rem;
   padding-top: 40px;
@@ -634,7 +634,7 @@ footer {
     font-size: 1.5rem;
   }
   .recuadroMinorista p, .recuadroMayorista p {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
   }
   .porque1 {
     -ms-grid-row: 3;
@@ -653,6 +653,15 @@ footer {
     -ms-grid-row-span: 1;
     grid-row: 5/6;
     width: 100%;
+  }
+  .indexCard i {
+    font-size: 5.5em;
+  }
+  .cardText {
+    width: 85%;
+  }
+  .cardText p {
+    font-size: 1em;
   }
 }
 
